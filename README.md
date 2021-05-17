@@ -9,9 +9,10 @@ Clone the public repo.
 
 ```
 git clone git@github.com:rafa1944/whalar-test.git
+cd whalar-test
 composer install
-vendor/laravel/sail up -d
-vendor/laravel/sail artisa migrate
-vendor/laravel/sail artisa db:seed
+vendor/laravel/sail/bin/sail up -d
+vendor/laravel/sail/bin/sail artisa migrate
+vendor/laravel/sail/bin/sail artisan db:seed
 ```
 
