@@ -16,3 +16,12 @@ vendor/laravel/sail/bin/sail artisas migrate
 vendor/laravel/sail/bin/sail artisan db:seed
 ```
 
+## API RESTful endpoints
+
+First, you need Insomnia client:
+
+```
+https://insomnia.rest/download
+```
+
+
