@@ -10,17 +10,21 @@ declare(strict_types=1);
  * with this source code in the file LICENSE.
  */
 
-namespace App\Http\Middleware;
+namespace App\Models;
 
-use Illuminate\Cookie\Middleware\EncryptCookies as Middleware;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
 
-class EncryptCookies extends Middleware
+class Character extends Model
 {
+    use HasFactory;
+
     /**
-     * The names of the cookies that should not be encrypted.
+     * The attributes that are mass assignable.
      *
      * @var array
      */
-    protected $except = [
+    protected $fillable = [
+        'data',
     ];
 }

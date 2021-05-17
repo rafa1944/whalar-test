@@ -1,0 +1,26 @@
+{
+   "characters":[
+      {
+         "characterName":"Addam Marbrand",
+         "characterLink":"/character/ch0305333/",
+         "actorName":"B.J. Hogg",
+         "actorLink":"/name/nm0389698/"
+      },
+      {
+         "characterName":"Aegon Targaryen",
+         "houseName":"Targaryen",
+         "royal":true,
+         "parents":[
+            "Elia Martell",
+            "Rhaegar Targaryen"
+         ],
+         "siblings":[
+            "Rhaenys Targaryen",
+            "Jon Snow"
+         ],
+         "killedBy":[
+            "Gregor Clegane"
+         ]
+      }
+   ]
+}
