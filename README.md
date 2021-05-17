@@ -30,12 +30,20 @@ Now, you can import from Insomnia this file from the root of the project:
 Insomnia_2021-05-17.json
 ```
 
+## Code analysis and linting
+
+Just execute from command line:
+
+```
+vendor/laravel/sail/bin/sail composer format
+```
+
 ## Testing
 
 Just execute from command line:
 
 ```
-composer test
+vendor/laravel/sail/bin/sail composer test
 ```
 
 
